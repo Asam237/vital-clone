@@ -5,12 +5,19 @@
 @font-face {
   font-family: "circularstd";
   src: url("../public/fonts/circularstd.otf");
-  font-weight: 400;
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "nhreg";
+  src: url("../public/fonts/nhreg.ttf");
+  font-weight: 200;
   font-style: normal;
 }
 
 * {
-  font-family: "circularstd";
+  font-family: "nhreg";
   background: #0E372D;
 }
 
